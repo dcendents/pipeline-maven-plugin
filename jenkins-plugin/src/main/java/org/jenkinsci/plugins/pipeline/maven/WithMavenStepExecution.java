@@ -491,7 +491,6 @@ class WithMavenStepExecution extends StepExecution {
             argList.addKeyValuePair(null, "maven.repo.local", mavenLocalRepo, false);
         }
 
-        argList.add("--batch-mode");
         argList.add("--show-version");
 
         StringBuilder c = new StringBuilder();
